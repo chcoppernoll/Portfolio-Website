@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: #3E4DB2;
+}
+
+.navbut{
+	color: #B29535;
+}
+
+.navbut:hover{
+	cursor: pointer;
+	background-color: #B29535;
+	color: #3E4DB2;
+}
+#empty_navbut_left{
+	background-image: url("../images/empty_nav_left.jpg");
+	background-repeat: repeat-x;
+}
+
+#empty_navbut_right{
+	background-image: url("../images/empty_nav_right.jpg");
+	background-repeat: repeat-x;
+}
+.image-lg{
+	background-image: url("../images/christopher-coppernoll.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 0;
+	padding-top: 66%
+}
