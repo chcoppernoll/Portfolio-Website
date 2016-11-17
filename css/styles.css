@@ -5,8 +5,22 @@ body{
 	background-color: #3E4DB2;
 }
 
+a:link{
+	text-decoration: none;
+}
+.navrow{
+	height: 44px;	
+}
+
 .navbut{
 	color: #B29535;
+	border-bottom: thin solid black;
+}
+
+.navbut_active{
+	color: #3E4DB2;
+	background-color: #B29535;
+	border-bottom: thin solid black;
 }
 
 .navbut:hover{
@@ -17,17 +31,34 @@ body{
 #empty_navbut_left{
 	background-image: url("../images/empty_nav_left.jpg");
 	background-repeat: repeat-x;
+	height: 21px;
+	border-bottom: thin solid black;
 }
 
 #empty_navbut_right{
 	background-image: url("../images/empty_nav_right.jpg");
 	background-repeat: repeat-x;
+	height: 21px;
+	border-bottom: thin solid black;
 }
-.image-lg{
-	background-image: url("../images/christopher-coppernoll.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	width: 100%;
-	height: 0;
-	padding-top: 66%
+
+.img-cont{
+	border-right: medium solid black;	
+}
+
+.main-hgt{
+	height: auto;
+}
+.about-me {
+	height: auto;
+}
+.col-title{
+	height: 10%;
+}
+.data{
+	height:90%;
+}
+.description{
+	border-right: medium solid black;
+	height: 100%;
 }
