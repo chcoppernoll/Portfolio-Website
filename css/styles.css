@@ -3,11 +3,38 @@
 
 body{
 	background-color: #3E4DB2;
+	color: #B29535;
 }
 
 a:link{
 	text-decoration: none;
 }
+
+h2{
+	color: #B29535;
+	margin-top: 0px;
+}
+
+h3{
+	color: #B29535;
+}
+
+p{
+	font-size: 16px;
+}
+
+li{
+	text-decoration: underline;
+}
+
+.active{
+	font-weight: bold;
+}
+
+li:hover{
+	cursor: pointer;
+}
+
 .navrow{
 	height: 44px;	
 }
@@ -43,7 +70,14 @@ a:link{
 }
 
 .img-cont{
-	border-right: medium solid black;	
+	border-right: medium solid black;
+}
+
+.img-links{
+	max-height: 50px;
+	height: auto;
+	width: auto;
+	padding-top: 20px;
 }
 
 .main-hgt{
@@ -61,4 +95,35 @@ a:link{
 .description{
 	border-right: medium solid black;
 	height: 100%;
+}
+.inactiveTab{
+	display: none;
+}
+#about-me-list{
+	border-bottom: medium solid black;
+}
+.about-me-pics{
+	max-width: 300px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+}
+.portfolio_links{
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 20%;
+}
+#portfolio_links_cont{
+	padding-bottom: 10px;
+	border-bottom: medium solid black;
+}
+.Jackson_Img{
+	width: 80%;
+	max-width: 600px;
+}
+.keyshare_img{
+	max-width: 600px;
+	width: 60%;
+}
+.ponder_img{
+	max-width: 51%;
 }
